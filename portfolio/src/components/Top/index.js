@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container , Formacao } from './style';
+import { Container , Formacao } from './styles';
 
 export default function Top(){
     return(

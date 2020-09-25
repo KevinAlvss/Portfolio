@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
         --blue:#457B9D;
         --darkblue:#1D3557;
         --red:#E63946;
+        --green:#0ead69;
     }
     
     *{
@@ -34,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Merriweather', serif;
     }
 
-    h1,h2,h3,button,input{
+    h1,h2,h3,h4,button,input{
         font-family:'Poppins', sans-serif;
     }
 

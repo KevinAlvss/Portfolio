@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container , TecsContainer , Languages , Item , PerCent , NumberBox , Fill} from './styles';
+import { Container , TecsContainer , Languages , PerCent , NumberBox , Fill} from './styles';
 
 function Habilities() {
   return (
@@ -8,12 +8,12 @@ function Habilities() {
           <h2>Skills</h2>
           <TecsContainer>
             <Languages>
-                <Item>HTML</Item>
-                <Item>CSS</Item>
-                <Item>JS</Item>
-                <Item>REACT</Item>
-                <Item>MYSQL</Item>
-                <Item>C#</Item>
+                <span>HTML:</span>
+                <span>CSS:</span>
+                <span>JS:</span>
+                <span>REACT:</span>
+                <span>MYSQL:</span>
+                <span>C#:</span>
             </Languages>
             <PerCent>
                 <NumberBox>
