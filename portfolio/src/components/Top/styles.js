@@ -27,8 +27,37 @@ export const Container = styled.div`
     > p{
         font-size:2.0rem;
     }
+
+    @media (max-width: 550px){
+        > h1{
+            font-size:6.8rem;
+        }
+
+        > h3{
+            font-size:2.5rem;
+        }
+
+        > p{
+            max-width:300px;
+            text-align:center;
+        }
+    }
+
+    @media (max-width: 400px){
+        > h1{
+            font-size:5.0rem;
+        }
+
+        > p{
+            font-size:1.5rem;
+        }
+    }
 `;
 
 export const Formacao = styled.p`
     color:#bdbfc8;
+
+    @media (max-width:450px){
+        font-size:1.5rem;
+    }
 `;
