@@ -22,13 +22,17 @@ export const TecsContainer = styled.div`
     width:60%;
 
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
+
+    @media (max-width:590px){
+        justify-content:center;
+    }
 
 `;
 
 export const Languages = styled.div`
     height:100%;
-    width:40%;
+    width:fit-content;
 
     display:flex;
     flex-direction:column;
@@ -40,15 +44,24 @@ export const Languages = styled.div`
     > span{
         font-size:2.5rem;
     }
+
+    @media (max-width:590px){
+        padding:unset;
+    }
 `;
 
 export const PerCent = styled.div`
     height:100%;
     width:60%;
+    max-width:400px;
 
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+
+    @media (max-width:590px){
+        width:90%;
+    }
 `;
 
 export const NumberBox = styled.div`

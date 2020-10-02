@@ -26,7 +26,7 @@ function Habilities() {
                     <Fill valor="50"/>
                 </NumberBox>
                 <NumberBox>
-                    <Fill valor="40"/>
+                    <Fill valor="65"/>
                 </NumberBox>
                 <NumberBox>
                     <Fill valor="60"/>
